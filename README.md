@@ -93,4 +93,28 @@ Isı haritası ile sonuçları görselleştiriyoruz.
 Sonuç olarak, hem yüksek tansiyon hem de fiziksel aktivite eksikliği diyabet oranını artırmaktadır. Fiziksel aktivitenin diyabet oranını azaltıcı etkisi, özellikle düşük tansiyon grubunda daha belirgin görülmektedir.
 
 
-Bu veri seti için lojistik regresyon ve destek vektör makineleri (SVM) gibi modeller önerilebilir. Lojistik regresyon, özellikle veriler arasında doğrusal ilişkiler olduğunda etkili olan basit ve yorumlanabilir bir modeldir. Diyabet gibi ikili sınıflandırma problemleri için uygun olup, modelin çıktısı kolayca yorumlanabilir. 
+Diyabet, dünya çapında milyonlarca insanı etkileyen kronik bir hastalıktır. Diyabeti erken tespit etmek, hastalığın ilerlemesini önlemek ve sağlık maliyetlerini düşürmek için önemli bir adımdır.
+Bu veri setine dayalı bir tahmin modeli şu problemlere çözüm sağlayabilir:
+
+Erken Teşhis: Hastaların verilerine dayanarak diyabet riskini tahmin edebiliriz. Bu, bireylere erken teşhis ve tedavi planlaması sağlar.
+Kişiselleştirilmiş Tedavi Önerileri: Model çıktıları, bireyler için özelleştirilmiş yaşam tarzı değişiklikleri veya tedavi önerileri sunmada kullanılabilir.
+
+Bu model, aşağıdaki alanlarda sağlık sektörüne değer katabilir:
+
+Hastaneler ve Klinikler: Risk grubu analizlerini otomatikleştirerek hasta kabul süreçlerini hızlandırabilir.
+Sağlık ve Fitness Uygulamaları: Kullanıcılarına risk analiz raporları ve önleyici sağlık tavsiyeleri sunabilir.
+
+Önerilen Makine Öğrenimi Algoritması ve Nedenleri
+
+Logistic Regression:
+Diyabet tahmini gibi ikili sınıflandırma problemleri için basit, hızlı ve yorumlanabilir bir modeldir. 
+Random Forest:
+Özellikler arasındaki karmaşık ilişkileri modelleyebilir. Aynı zamanda, eksik değerler veya aykırı değerler gibi problemlere karşı dayanıklıdır.
+KNN (K-Nearest Neighbors):
+Diyabet risk faktörleri arasında benzerliklere dayanarak tahmin yapabilir. Ancak büyük veri setlerinde daha yüksek hesaplama maliyeti yaratabilir.
+
+Veri seti göz önünde bulundurulduğunda, Logistic Regression veya Random Forest önerilir. Çünkü bu algoritmalar:
+Bu veri setinde olduğu giib ikili sınıflandırma probleminde ve çoklu veri tipleri (sürekli ve kategorik) üzerinde etkili çalışabilir.
+
+Sonuç ve Öneriler
+Model Performansı, proje başarı kriteri olarak doğruluk, hassasiyet (precision), hatırlama (recall) ve F1 skorları gibi metrikler kullanılmalıdır. Örneğin, modelin pozitif diyabet vakalarını doğru tahmin etme oranı (recall) özellikle önemlidir.
