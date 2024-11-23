@@ -28,7 +28,7 @@ Bu veri seti, bireylerin sağlık durumlarını incelemek ve diyabet riskiyle il
 Veri seti, sağlık analizleri yapmak, diyabet riskini değerlendirmek ve ilişkili sağlık faktörlerini belirlemek için oldukça kullanışlıdır. Özellikle çapraz tablolar ve görselleştirme yöntemleriyle diyabet riski üzerindeki etkiler analiz edilebilir.
 
 Kaggle Veri Seti: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
-
+Kaggle Linki: https://www.kaggle.com/code/esenglelik/diyabet-sagl-k-gostergeleri
 Github Hesabım: https://github.com/esengulcelik
 
 
